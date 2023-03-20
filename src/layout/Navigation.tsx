@@ -14,7 +14,8 @@ export const Navigation = () => {
     <HStack>
       <Item to="/">Home</Item>
       <Item to="/nfts">Evm NFTs</Item>
-      <Item to="/maarten">maarten</Item>
+      <Item to="/maarten">Maarten</Item>
+      <Item to="/minter">Minter</Item>
     </HStack>
   );
 };

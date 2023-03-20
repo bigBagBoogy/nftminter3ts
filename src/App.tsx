@@ -7,6 +7,8 @@ import Footer from './layout/Footer';
 import { VStack, Spacer } from '@chakra-ui/react';
 import { Nfts } from './views/Nfts';
 import { Maarten } from './views/Maarten';
+import { Minter } from './views/Minter';
+
 
 
 
@@ -20,6 +22,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="nfts" element={<Nfts />} />
           <Route path="maarten" element={<Maarten />} />
+          <Route path="minter" element={<Minter />} />
         </Routes>
       </Main>
       <Spacer />

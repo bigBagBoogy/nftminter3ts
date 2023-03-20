@@ -26,10 +26,7 @@ export const theme = extendTheme({
     },
   },
   // We can set the font of our project
-  fonts: {
-    heading: 'Be Vietnam',
-    body: 'Be Vietnam',
-  },
+
   // We can define an initial colorMode (I chose dark 🌙 as default )
   config: {
     initialColorMode: 'dark',
